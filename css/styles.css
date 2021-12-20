@@ -3986,6 +3986,11 @@ input[type="button"].btn--primary:focus {
     background-color: white;
     position: relative;
     overflow: hidden;
+    margin: 2px;
+}
+
+.folio-item h5{
+    text-align: center;
 }
 
 .folio-item__thumb::before {
@@ -4062,6 +4067,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .modal-popup {
     max-width: 680px;
+    max-height: 100vh;
     background-color: white;
     font-size: calc(var(--text-size) * 0.9444);
     line-height: 1.647;
@@ -4128,7 +4134,7 @@ input[type="button"].btn--primary:focus {
     padding: 0 1.4rem;
     position: absolute;
     top: var(--vspace-1_25);
-    left: 4rem;
+    right: 4rem;
 }
 
 .modal-popup__details:hover, 
